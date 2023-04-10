@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         #denxanh{
+            width: 65px;
+            height: 65px;
+            border: 2px solid brown;
+            border-radius: 100px;
+            position: absolute;
+            background-color:#ccc;
+            top: 42.2%;
+            margin-left: 469.9px;
+
+            
+        }
+        #denvang{
+            width: 65px;
+            height: 65px;
+            border: 2px solid brown;
+            border-radius: 100px;
+            position: absolute;
+            background-color: #ccc;
+            top: 32.2%;
+            margin-left: 469.9px;
+            
+
+        
+        }
+        #dendo{
+            width: 65px;
+            height: 65px;
+            border: 2px solid brown;
+            border-radius: 100px;
+            position: absolute;
+            background-color:red;
+            top: 21.5%;
+            margin-left: 469px;
+    
+        }
+    </style>
+</head>
+<body>
+    <button onclick="red()">RED</button>
+    <button onclick="yellow()">YELLOW</button>
+    <button onclick="green()"> GREEN</button>
+    <img src="https://dayve.vn/wp-content/uploads/2022/11/6.jpg" alt="">
+    <div id="dendo"></div>
+    <div id="denvang"></div>
+    <div id="denxanh"></div>
+    <script>
+        function red(){
+            document.getElementById("dendo").style.background="red";
+            document.getElementById("denvang").style.background="white";
+            document.getElementById("denxanh").style.background="white";
+
+        }
+        function yellow(){
+            document.getElementById("dendo").style.background="white";
+            document.getElementById("denvang").style.background="yellow";
+            document.getElementById("denxanh").style.background="white";
+
+        }
+        function green(){
+            document.getElementById("dendo").style.background="white";
+            document.getElementById("denvang").style.background="white";
+            document.getElementById("denxanh").style.background="green";
+
+        }
+    </script>
+</body>
+</html>
